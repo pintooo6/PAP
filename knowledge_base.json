@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "Hello",
+      "answer": "Hello how can i help you?"
+    },
+    {
+      "question": "Ol\u00e1",
+      "answer": "Ol\u00e1 como posso ajudar?"
+    },
+    {
+      "question": "olaa ",
+      "answer": "Ol\u00e1 como posso ajudar?"
+    },
+    {
+      "question": "Que cursos profissionais existem na escola neste momento?",
+      "answer": "Na escola Alcaides de Faria existem 5 cursos ativos sendo eles \n1-T\u00c3\u00a9cnico De Gest\u00c3\u00a3o e Contabilidade\n 2-T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Programa\u00c3\u00a7\u00c3\u00a3o\n 3-T\u00c3\u00a9cnico de Design e Multim\u00c3\u00a9dia\n 4-T\u00c3\u00a9cnico de Mecatr\u00c3\u00b3nica\n 5-T\u00c3\u00a9cnico de Eletromec\u00c3\u00a2nica\n."
+    },
+    {
+      "question": "Great!",
+      "answer": "Great!"
+    },
+    {
+      "question": "Portela",
+      "answer": "gang"
+    },
+    {
+      "question": "Jer",
+      "answer": "Ciclista"
+    },
+    {
+      "question": "Como te chamas?",
+      "answer": "Jer.AI"
+    },
+    {
+      "question": "Qual \u00e9 a tua fun\u00e7\u00e3o?",
+      "answer": "Ajudar os Alunos da Alcaides Faria com as suas  d\u00favidas."
+    },
+    {
+      "question": "Como fa\u00e7o para me matricular na escola Alcaides de Faria?",
+      "answer": "Para se matricular na escola Alcaides de Faria basta diriger se \u00e1 secretaria na escola com todos os seus documentos legais as senhoras da secretaria dar-lhe iram todas as instru\u00e7\u00f5es necessarias para fazer a matricula corretamente."
+    }
+  ]
+}
