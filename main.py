@@ -1,7 +1,10 @@
 import json
 from difflib import get_close_matches
+from google.cloud import search
+from google.cloud import os
+ 
 
-#Carregar o ficheiro de conhecimento base 
+# Load the knowledge base file
 
 def load_knowledge_base(file_path: str) -> dict:
     with open(file_path, 'r') as file:
@@ -23,15 +26,43 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     for q in knowledge_base["questions"]:
         if q["question"] == question:
             return q["answer"]
+
+    # Use Google Search API to answer coding questions
+    if question.startswith('how to'):
+        client = search.SearchServiceClient()
+
+        search_params = search.SearchParams()
+        search_params.query = question
+        search_params.location = "US"
+        search_params.language = "en"
+
+        search_response = client.search(request=search_params)
+
+        for result in search_response.results:
+            if result.doc_id == "codingpedia/python-for-beginners/functions-in-python":
+                answer_text = result.snippet
+                break
+
+        # Return the extracted answer from Google Search
+        return answer_text 
+
     # Corrected code to break out of the loop when `quit` is entered
     if user_input.lower() == 'quit':
         print("Bot: Goodbye!")
         
 
-
 def chat_bot():
     knowledge_base = load_knowledge_base('knowledge_base.json')
+
+    from google.cloud import search
+     
+    from googlesearch import search
+    search("foo") 
+     # Replace with your actual API key
+    os.environ["SEARCH_API_KEY"] = "AIzaSyCO-JfMMXxTdlDbzZGfGh1ynE1sjY7ApN0"
     
+    # Initialize the SearchServiceClient object
+    client = search.SearchServiceClient()
     while True:
         user_input = input('You: ')
 
@@ -53,7 +84,5 @@ def chat_bot():
                 save_knowledge_base('knowledge_base.json', knowledge_base)
                 print('Bot: Thank you man!')
 
-
 if __name__ == '__main__':
     chat_bot()
-
