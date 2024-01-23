@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { View, FlatList } from 'react-native';
+import ChatBubble from './ChatBubble';
+import ChatInput from './ChatInput';
 
-export default function App() {
+const ChatView = () => {
+  const [messages, setMessages] = useState([]);
+
+  const handleSendMessage = (message) => {
+    // Send message to the chatbot
+    setMessages([...messages, { message, isUserMessage: true }]);
+  };
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <FlatList
+        data={messages}
+        keyExtractor={(message, index) => `message-${index}`}
+        renderItem={({ item }) => (
+          <ChatBubble message={item.message} isUserMessage={item.isUserMessage} />
+        )}
+      />
+      <ChatInput handleSendMessage={handleSendMessage} />
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default ChatView;
