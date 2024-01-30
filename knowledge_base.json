@@ -63,5 +63,38 @@ Algumas das atividades extracurriculares mais populares da escola são:
     * A banda da escola, que participa em eventos culturais da cidade.
     * A Associação de alunos, que organiza atividades sociais e culturais para os alunos da escola."
     }
+    {
+  "questions": [
+    {
+      "question": "Qual é o objetivo do curso de Técnico de Gestão e Contabilidade?",
+      "answer": "O objetivo do curso de Técnico de Gestão e Contabilidade é formar profissionais capazes de desempenhar funções de gestão e contabilidade em empresas, organizações e instituições públicas. Os formandos deste curso adquirem conhecimentos e competências nas áreas de gestão financeira, gestão de recursos humanos, gestão de marketing e gestão de operações."
+    },
+    {
+      "question": "Quais são as disciplinas que são lecionadas no curso de Técnico de Gestão e Programação?",
+      "answer": "As disciplinas que são lecionadas no curso de Técnico de Gestão e Programação são:
+
+    * Programação
+    * Base de dados
+    * Redes de computadores
+    * Sistemas operativos
+    * Matemática
+
+Os formandos deste curso adquirem conhecimentos e competências nas áreas de programação, base de dados, redes de computadores, sistemas operativos, matemática"
+    },
+    {
+      "question": "Quais são as oportunidades de emprego após a conclusão do curso de Técnico de Design e Multimédia?",
+      "answer": "As oportunidades de emprego após a conclusão do curso de Técnico de Design e Multimédia são diversas. Os formandos deste curso podem trabalhar como designers gráficos, web designers, animadores digitais, programadores de jogos, fotógrafos, videografistas, etc.
+
+Algumas das áreas de emprego mais promissoras para os Técnicos de Design e Multimédia são:
+
+    * Publicidade e marketing
+    * Design editorial
+    * Design industrial
+    * Design de jogos
+    * Animação digital
+    * Multimédia
+    * Edição de vídeo
+    * Fotografia"
+    }
   ]
 }
