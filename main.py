@@ -42,7 +42,7 @@ def answer_what_course_to_enroll(question):
         "description": "Este curso prepara os alunos para trabalharem com sistemas eletrônicos.",
       },
       {
-        "name": "Técnico de Mecânica",
+        "name": "Técnico de Mecatrónica",
         "description": "Este curso prepara os alunos para trabalharem com máquinas e equipamentos mecânicos.",
       },
       {
