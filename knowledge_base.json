@@ -94,7 +94,13 @@ Algumas das áreas de emprego mais promissoras para os Técnicos de Design e Mul
     * Animação digital
     * Multimédia
     * Edição de vídeo
-    * Fotografia"
+    * Fotografia"{
+      "question": "Em que curso devo engressar?",
+      "answer": answer_what_course_to_enroll,
     }
+    {
+      "question": "Em que curso devo engressar?",
+      "answer": answer_what_course_to_enroll,
+    },
   ]
 }

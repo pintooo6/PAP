@@ -19,6 +19,54 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
         if q["question"] == question:
             return q["answer"]
 
+//adicionar logica para responder a pergunta Que curos engressar?
+def answer_what_course_to_enroll(question):
+  """Responde à pergunta "Em que curso devo engressar?".
+
+  Args:
+    question: A pergunta do usuário.
+
+  Returns:
+    Uma resposta à pergunta.
+  """
+
+  response = "A escolha do curso regular ou profissional de ensino secundário é uma decisão importante que deve ser tomada com cuidado. Depende muito dos seus gostos e do caminho profissional que você quer seguir."
+
+  courses = [
+      {
+        "name": "Técnico de Gestão e Programação de Sistemas Informatícos",
+        "description": "Este curso prepara os alunos para trabalharem com computadores e tecnologia de informação.",
+      },
+      {
+        "name": "Técnico de Eletromecánica",
+        "description": "Este curso prepara os alunos para trabalharem com sistemas eletrônicos.",
+      },
+      {
+        "name": "Técnico de Mecânica",
+        "description": "Este curso prepara os alunos para trabalharem com máquinas e equipamentos mecânicos.",
+      },
+      {
+        "name": "Curso de Ciências e Tecnologias",
+        "description": "Este curso prepara os alunos para seguir carreiras nas áreas de ciências, matemática e tecnologia.",
+      },
+      {
+        "name": "Curso de Línguas e Humanidades",
+        "description": "Este curso prepara os alunos para seguir carreiras nas áreas de línguas, literatura, história e filosofia.",
+      },
+      {
+        "name": "Curso de Artes Visuais e Design",
+        "description": "Este curso prepara os alunos para seguir carreiras nas áreas de artes visuais, design e comunicação.",
+      },
+  ]
+
+  for course in courses:
+    response += f"* **{course['name']}:** {course['description']}"
+
+  return response
+
+//Fim da classe
+
+
 def chat_bot():
     knowledge_base = load_knowledge_base('knowledge_base.json')
 
