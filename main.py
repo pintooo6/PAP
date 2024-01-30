@@ -1,6 +1,5 @@
 import json
 from difflib import get_close_matches
-from googlesearch import search
 
 def load_knowledge_base(file_path: str) -> dict:
     with open(file_path, 'r') as file:
@@ -19,15 +18,6 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     for q in knowledge_base["questions"]:
         if q["question"] == question:
             return q["answer"]
-
-    # Use Google Search API to answer coding questions
-    if any(keyword in question.lower() for keyword in ['code', 'coding', 'html', 'python']):
-        for result in search(question, num=1, stop=1, pause=2):
-            # Check if the result contains code-related keywords or snippets
-            if 'code' in result.lower() or 'snippet' in result.lower():
-                return result
-
-    return None
 
 def chat_bot():
     knowledge_base = load_knowledge_base('knowledge_base.json')

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, TouchableOpacity, FlatList, Text, StyleSheet } from 'react-native';
+import { View, TextInput, TouchableOpacity, FlatList, Text, Image, StyleSheet } from 'react-native';
 
 export default function App() {
   const [inputText, setInputText] = useState('');
@@ -7,7 +7,7 @@ export default function App() {
 
   const handleSend = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/chat', {
+      const response = await fetch('http://192.168.1.136:3000/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -34,6 +34,14 @@ export default function App() {
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
           <View style={item.sender === 'user' ? styles.userMessage : styles.botMessage}>
+            {item.sender === 'user' && (
+              <View style={styles.profileContainer}>
+                <Image
+                  source={require('./user_profile.png')} // Replace with your user profile picture source
+                  style={styles.profileImage}
+                />
+              </View>
+            )}
             <Text>{item.text}</Text>
           </View>
         )}
@@ -82,6 +90,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   userMessage: {
+    flexDirection: 'row',
+    alignItems: 'center',
     backgroundColor: '#E0E0E0',
     borderRadius: 10,
     margin: 8,
@@ -97,4 +107,15 @@ const styles = StyleSheet.create({
     maxWidth: '70%',
     alignSelf: 'flex-start',
   },
+  profileContainer: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+  },
+  profileImage: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+  },
+
 });

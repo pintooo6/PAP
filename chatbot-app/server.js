@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const { chatbot } = require('./main'); // Importe a lógica do seu chatbot
+const { chatbot } = require('./main.py'); // Importe a lógica do seu chatbot
 
 const app = express();
 const port = 3000;
@@ -18,6 +18,6 @@ app.post('/api/chat', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://192.168.1.136${port}`);
 });
     
