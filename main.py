@@ -19,7 +19,7 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
         if q["question"] == question:
             return q["answer"]
 
-//adicionar logica para responder a pergunta Que curos engressar?
+#adicionar logica para responder a pergunta Que curos engressar?
 def answer_what_course_to_enroll(question):
   """Responde à pergunta "Em que curso devo engressar?".
 
@@ -64,7 +64,7 @@ def answer_what_course_to_enroll(question):
 
   return response
 
-//Fim da classe
+#Fim da classe
 
 
 def chat_bot():
