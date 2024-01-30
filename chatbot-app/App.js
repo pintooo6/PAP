@@ -7,8 +7,8 @@ export default function App() {
 
   const handleSend = async () => {
     try {
-      const response = await fetch('http://192.168.1.136:3000/api/chat', {
         method: 'POST',
+        const response = await fetch('http://10.64.130.114:5000/api/chat', {
         headers: {
           'Content-Type': 'application/json',
         },

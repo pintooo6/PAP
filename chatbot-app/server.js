@@ -18,6 +18,5 @@ app.post('/api/chat', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running at http://192.168.1.136${port}`);
+  console.log(`Server running at http://10.64.130.114${port}`);
 });
-    
