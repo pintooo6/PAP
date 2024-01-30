@@ -5,16 +5,16 @@
       "answer": "Hello how can i help you?"
     },
     {
-      "question": "Ol\u00e1",
-      "answer": "Ol\u00e1 como posso ajudar?"
+      "question": "Olá",
+      "answer": "Olá como posso ajudar?"
     },
     {
       "question": "olaa ",
-      "answer": "Ol\u00e1 como posso ajudar?"
+      "answer": "Olá como posso ajudar?"
     },
     {
       "question": "Que cursos profissionais existem na escola neste momento?",
-      "answer": "Na escola Alcaides de Faria existem 5 cursos ativos sendo eles \n1-T\u00c3\u00a9cnico De Gest\u00c3\u00a3o e Contabilidade\n 2-T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Programa\u00c3\u00a7\u00c3\u00a3o\n 3-T\u00c3\u00a9cnico de Design e Multim\u00c3\u00a9dia\n 4-T\u00c3\u00a9cnico de Mecatr\u00c3\u00b3nica\n 5-T\u00c3\u00a9cnico de Eletromec\u00c3\u00a2nica\n."
+      "answer": "Na escola Alcaides de Faria existem 5 cursos ativos sendo eles \n1-Técnico De Gestão e Contabilidade\n 2-Técnico de Gestão e Programação\n 3-Técnico de Design e Multimédia\n 4-Técnico de Mecatrónica\n 5-Técnico de Eletromecânica\n."
     },
     {
       "question": "Great!",
@@ -33,12 +33,35 @@
       "answer": "Jer.AI"
     },
     {
-      "question": "Qual \u00e9 a tua fun\u00e7\u00e3o?",
-      "answer": "Ajudar os Alunos da Alcaides Faria com as suas  d\u00favidas."
+      "question": "Qual é a tua função?",
+      "answer": "Ajudar os Alunos da Alcaides Faria com as suas dúvidas."
     },
     {
-      "question": "Como fa\u00e7o para me matricular na escola Alcaides de Faria?",
-      "answer": "Para se matricular na escola Alcaides de Faria basta diriger se \u00e1 secretaria na escola com todos os seus documentos legais as senhoras da secretaria dar-lhe iram todas as instru\u00e7\u00f5es necessarias para fazer a matricula corretamente."
+      "question": "Como faço para me matricular na escola Alcaides de Faria?",
+      "answer": "Para se matricular na escola Alcaides de Faria basta dirigir-se à secretaria na escola com todos os seus documentos legais as senhoras da secretaria dar-lhe-ão todas as instruções necessárias para fazer a matrícula corretamente."
+    },
+    {
+      "question": "Quando foi fundada a escola Alcaides de Faria?",
+      "answer": "A escola Alcaides de Faria foi fundada em 1957, funcionando, na altura, nas atuais instalações do Museu de Olaria de Barcelos. Denominava-se, então, Escola Industrial e Comercial de Barcelos. Em 1975, instalou-se nos atuais edifícios, em plena zona urbana."
+    },
+    {
+      "question": "Onde fica a escola Alcaides de Faria?",
+      "answer": "A escola Alcaides de Faria fica na Rua D. Afonso Henriques, 23, 4750-064 Barcelos, Portugal."
+    },
+    {
+      "question": "Quais são as atividades extracurriculares promovidas pela escola Alcaides de Faria?",
+      "answer": "A escola Alcaides de Faria promove diversas atividades extracurriculares, tais como:
+
+    * Desporto (futebol, basquetebol, voleibol, atletismo, etc.)
+    * Cultura (teatro, música, dança, etc.)
+    * Associativismo (clubes de alunos, associações desportivas, etc.)
+
+Algumas das atividades extracurriculares mais populares da escola são:
+
+    * O clube de ténis da escola, que participa em competições locais e regionais.
+    * O grupo de teatro da escola, que apresenta peças de teatro durante todo o ano letivo.
+    * A banda da escola, que participa em eventos culturais da cidade.
+    * A Associação de alunos, que organiza atividades sociais e culturais para os alunos da escola."
     }
   ]
 }
