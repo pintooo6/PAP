@@ -1,4 +1,5 @@
 import json
+import nltk
 from difflib import get_close_matches
 
 def load_knowledge_base(file_path: str) -> dict:
@@ -68,6 +69,10 @@ def answer_what_course_to_enroll(question):
 
 
 def chat_bot():
+    # Download NLTK data
+    nltk.download('punkt')
+
+    # Load knowledge base
     knowledge_base = load_knowledge_base('knowledge_base.json')
 
     while True:
@@ -76,6 +81,9 @@ def chat_bot():
         if user_input.lower() == 'quit':
             print("Bot: Goodbye!")
             break
+
+        # Tokenize user input
+        user_tokens = nltk.word_tokenize(user_input)
 
         # Check if the user's input is a coding-related question
         best_match = find_best_match(user_input, [q['question'] for q in knowledge_base['questions']])

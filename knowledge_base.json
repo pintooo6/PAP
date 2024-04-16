@@ -2,105 +2,87 @@
   "questions": [
     {
       "question": "Hello",
-      "answer": "Hello how can i help you?"
+      "answer": "Hello, how can I help you?"
     },
     {
-      "question": "Olá",
-      "answer": "Olá como posso ajudar?"
+      "question": "Ol\u00c3\u00a1",
+      "answer": "Ol\u00c3\u00a1, como posso ajudar?"
+    },
+    {
+      "question": "Qual \u00c3\u00a9 o objetivo do curso de T\u00c3\u00a9cnico de Design e Multim\u00c3\u00a9dia?",
+      "answer": "O objetivo do curso de T\u00c3\u00a9cnico de Design e Multim\u00c3\u00a9dia \u00c3\u00a9 preparar os alunos para trabalharem nas \u00c3\u00a1reas de design gr\u00c3\u00a1fico, design de interfaces, design de produto, anima\u00c3\u00a7\u00c3\u00a3o, v\u00c3\u00addeo, efeitos especiais, entre outras. Os alunos adquirem conhecimentos em software de design, t\u00c3\u00a9cnicas de anima\u00c3\u00a7\u00c3\u00a3o, produ\u00c3\u00a7\u00c3\u00a3o de conte\u00c3\u00bado multim\u00c3\u00a9dia e design de interfaces."
+    },
+    {
+      "question": "Quais s\u00c3\u00a3o as sa\u00c3\u00addas profissionais do curso de T\u00c3\u00a9cnico de Eletromec\u00c3\u00a2nica?",
+      "answer": "As sa\u00c3\u00addas profissionais do curso de T\u00c3\u00a9cnico de Eletromec\u00c3\u00a2nica incluem \u00c3\u00a1reas como manuten\u00c3\u00a7\u00c3\u00a3o industrial, automa\u00c3\u00a7\u00c3\u00a3o, instala\u00c3\u00a7\u00c3\u00a3o e repara\u00c3\u00a7\u00c3\u00a3o de equipamentos eletromec\u00c3\u00a2nicos, gest\u00c3\u00a3o de projetos de engenharia, entre outras. Os alunos podem trabalhar em empresas industriais, empresas de manuten\u00c3\u00a7\u00c3\u00a3o, empresas de energia, entre outras."
+    },
+    {
+      "question": "Como posso contactar a escola Alcaides de Faria?",
+      "answer": "Voc\u00c3\u00aa pode contactar a escola Alcaides de Faria atrav\u00c3\u00a9s do n\u00c3\u00bamero de telefone +351 123 456 789 ou enviando um email para secretaria@escolaalcaidesdefaria.pt. O hor\u00c3\u00a1rio de atendimento da secretaria \u00c3\u00a9 de segunda a sexta-feira, das 9h00 \u00c3\u00a0s 17h00."
+    },
+    {
+      "question": "Quais s\u00c3\u00a3o os documentos necess\u00c3\u00a1rios para a matr\u00c3\u00adcula na escola Alcaides de Faria?",
+      "answer": "Os documentos necess\u00c3\u00a1rios para a matr\u00c3\u00adcula na escola Alcaides de Faria incluem o cart\u00c3\u00a3o de cidad\u00c3\u00a3o ou bilhete de identidade, o cart\u00c3\u00a3o de contribuinte, o cart\u00c3\u00a3o de utente do Servi\u00c3\u00a7o Nacional de Sa\u00c3\u00bade, o boletim de vacinas atualizado, o comprovativo de morada, o comprovativo de escal\u00c3\u00a3o de abono de fam\u00c3\u00adlia, entre outros. \u00c3\u2030 importante consultar a secretaria da escola para obter uma lista completa de documentos necess\u00c3\u00a1rios."
     },
     {
       "question": "olaa ",
-      "answer": "Olá como posso ajudar?"
+      "answer": "Ol\u00c3\u00a1, como posso ajudar?"
     },
     {
       "question": "Que cursos profissionais existem na escola neste momento?",
-      "answer": "Na escola Alcaides de Faria existem 5 cursos ativos sendo eles \n1-Técnico De Gestão e Contabilidade\n 2-Técnico de Gestão e Programação\n 3-Técnico de Design e Multimédia\n 4-Técnico de Mecatrónica\n 5-Técnico de Eletromecânica\n."
+      "answer": "Na escola Alcaides de Faria existem 5 cursos ativos, sendo eles:\n\n1. T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Contabilidade\n2. T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Programa\u00c3\u00a7\u00c3\u00a3o\n3. T\u00c3\u00a9cnico de Design e Multim\u00c3\u00a9dia\n4. T\u00c3\u00a9cnico de Mecatr\u00c3\u00b3nica\n5. T\u00c3\u00a9cnico de Eletromec\u00c3\u00a2nica"
     },
     {
       "question": "Great!",
-      "answer": "Great!"
+      "answer": "\u00c3\u201ctimo!"
     },
     {
       "question": "Portela",
-      "answer": "gang"
+      "answer": "bairro"
     },
     {
       "question": "Jer",
-      "answer": "Ciclista"
+      "answer": "ciclista"
     },
     {
       "question": "Como te chamas?",
       "answer": "Jer.AI"
     },
     {
-      "question": "Qual é a tua função?",
-      "answer": "Ajudar os Alunos da Alcaides Faria com as suas dúvidas."
+      "question": "Qual \u00c3\u00a9 a tua fun\u00c3\u00a7\u00c3\u00a3o?",
+      "answer": "Ajudar os alunos da Alcaides de Faria com suas d\u00c3\u00bavidas."
     },
     {
-      "question": "Como faço para me matricular na escola Alcaides de Faria?",
-      "answer": "Para se matricular na escola Alcaides de Faria basta dirigir-se à secretaria na escola com todos os seus documentos legais as senhoras da secretaria dar-lhe-ão todas as instruções necessárias para fazer a matrícula corretamente."
+      "question": "Como fa\u00c3\u00a7o para me matricular na escola Alcaides de Faria?",
+      "answer": "Para se matricular na escola Alcaides de Faria, basta dirigir-se \u00c3\u00a0 secretaria da escola com todos os seus documentos legais. As senhoras da secretaria lhe dar\u00c3\u00a3o todas as instru\u00c3\u00a7\u00c3\u00b5es necess\u00c3\u00a1rias para fazer a matr\u00c3\u00adcula corretamente."
     },
     {
       "question": "Quando foi fundada a escola Alcaides de Faria?",
-      "answer": "A escola Alcaides de Faria foi fundada em 1957, funcionando, na altura, nas atuais instalações do Museu de Olaria de Barcelos. Denominava-se, então, Escola Industrial e Comercial de Barcelos. Em 1975, instalou-se nos atuais edifícios, em plena zona urbana."
+      "answer": "A escola Alcaides de Faria foi fundada em 1957. Na \u00c3\u00a9poca, funcionava nas atuais instala\u00c3\u00a7\u00c3\u00b5es do Museu de Olaria de Barcelos. Denominava-se, ent\u00c3\u00a3o, Escola Industrial e Comercial de Barcelos. Em 1975, instalou-se nos atuais edif\u00c3\u00adcios, em plena zona urbana."
     },
     {
       "question": "Onde fica a escola Alcaides de Faria?",
-      "answer": "A escola Alcaides de Faria fica na Rua D. Afonso Henriques, 23, 4750-064 Barcelos, Portugal."
+      "answer": "A escola Alcaides de Faria situa-se na Rua D. Afonso Henriques, 23, 4750-064 Barcelos, Portugal."
     },
     {
-      "question": "Quais são as atividades extracurriculares promovidas pela escola Alcaides de Faria?",
-      "answer": "A escola Alcaides de Faria promove diversas atividades extracurriculares, tais como:
-
-    * Desporto (futebol, basquetebol, voleibol, atletismo, etc.)
-    * Cultura (teatro, música, dança, etc.)
-    * Associativismo (clubes de alunos, associações desportivas, etc.)
-
-Algumas das atividades extracurriculares mais populares da escola são:
-
-    * O clube de ténis da escola, que participa em competições locais e regionais.
-    * O grupo de teatro da escola, que apresenta peças de teatro durante todo o ano letivo.
-    * A banda da escola, que participa em eventos culturais da cidade.
-    * A Associação de alunos, que organiza atividades sociais e culturais para os alunos da escola."
+      "question": "Quais s\u00c3\u00a3o as atividades extracurriculares promovidas pela escola Alcaides de Faria?",
+      "answer": "A escola Alcaides de Faria promove diversas atividades extracurriculares, tais como:\n\n* Desporto (futebol, basquetebol, voleibol, atletismo, etc.)\n* Cultura (teatro, m\u00c3\u00basica, dan\u00c3\u00a7a, etc.)\n* Associativismo (clubes de alunos, associa\u00c3\u00a7\u00c3\u00b5es desportivas, etc.)\n\nAlgumas das atividades extracurriculares mais populares da escola s\u00c3\u00a3o:\n\n* O clube de t\u00c3\u00a9nis da escola, que participa em competi\u00c3\u00a7\u00c3\u00b5es locais e regionais.\n* O grupo de teatro da escola, que apresenta pe\u00c3\u00a7as de teatro durante todo o ano letivo.\n* A banda da escola, que participa em eventos culturais da cidade.\n* A Associa\u00c3\u00a7\u00c3\u00a3o de alunos, que organiza atividades sociais e culturais para os alunos da escola."
+    },
+    {
+      "question": "Qual \u00c3\u00a9 o objetivo do curso de T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Contabilidade?",
+      "answer": "O objetivo do curso de T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Contabilidade \u00c3\u00a9 formar profissionais capazes de desempenhar fun\u00c3\u00a7\u00c3\u00b5es de gest\u00c3\u00a3o e contabilidade em empresas, organiza\u00c3\u00a7\u00c3\u00b5es e institui\u00c3\u00a7\u00c3\u00b5es p\u00c3\u00bablicas. Os formandos deste curso adquirem conhecimentos e compet\u00c3\u00aancias nas \u00c3\u00a1reas de gest\u00c3\u00a3o financeira, gest\u00c3\u00a3o de recursos humanos, gest\u00c3\u00a3o de marketing e gest\u00c3\u00a3o de opera\u00c3\u00a7\u00c3\u00b5es."
+    },
+    {
+      "question": "Quais s\u00c3\u00a3o as disciplinas que s\u00c3\u00a3o lecionadas no curso de T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Programa\u00c3\u00a7\u00c3\u00a3o?",
+      "answer": "As disciplinas que s\u00c3\u00a3o lecionadas no curso de T\u00c3\u00a9cnico de Gest\u00c3\u00a3o e Programa\u00c3\u00a7\u00c3\u00a3o s\u00c3\u00a3o:\n\n* Programa\u00c3\u00a7\u00c3\u00a3o\n* Base de dados\n* Redes de computadores\n* Sistemas operativos\n* Matem\u00c3\u00a1tica\n\nOs formandos deste curso adquirem conhecimentos e compet\u00c3\u00aancias nas \u00c3\u00a1reas de programa\u00c3\u00a7\u00c3\u00a3o, base de dados, redes de computadores, sistemas operativos e matem\u00c3\u00a1tica."
+    },
+    {
+      "question": "Ola",
+      "answer": "Ol\u00e1, como estas?"
+    },
+    {
+      "question": "Tou bem",
+      "answer": "Ainda bem espero que o seu dia esteja correndo da melhor maneira poss\u00edvel."
     }
-    {
-  "questions": [
-    {
-      "question": "Qual é o objetivo do curso de Técnico de Gestão e Contabilidade?",
-      "answer": "O objetivo do curso de Técnico de Gestão e Contabilidade é formar profissionais capazes de desempenhar funções de gestão e contabilidade em empresas, organizações e instituições públicas. Os formandos deste curso adquirem conhecimentos e competências nas áreas de gestão financeira, gestão de recursos humanos, gestão de marketing e gestão de operações."
-    },
-    {
-      "question": "Quais são as disciplinas que são lecionadas no curso de Técnico de Gestão e Programação?",
-      "answer": "As disciplinas que são lecionadas no curso de Técnico de Gestão e Programação são:
-
-    * Programação
-    * Base de dados
-    * Redes de computadores
-    * Sistemas operativos
-    * Matemática
-
-Os formandos deste curso adquirem conhecimentos e competências nas áreas de programação, base de dados, redes de computadores, sistemas operativos, matemática"
-    },
-    {
-      "question": "Quais são as oportunidades de emprego após a conclusão do curso de Técnico de Design e Multimédia?",
-      "answer": "As oportunidades de emprego após a conclusão do curso de Técnico de Design e Multimédia são diversas. Os formandos deste curso podem trabalhar como designers gráficos, web designers, animadores digitais, programadores de jogos, fotógrafos, videografistas, etc.
-
-Algumas das áreas de emprego mais promissoras para os Técnicos de Design e Multimédia são:
-
-    * Publicidade e marketing
-    * Design editorial
-    * Design industrial
-    * Design de jogos
-    * Animação digital
-    * Multimédia
-    * Edição de vídeo
-    * Fotografia"{
-      "question": "Em que curso devo engressar?",
-      "answer": answer_what_course_to_enroll,
-    }
-    {
-      "question": "Em que curso devo engressar?",
-      "answer": answer_what_course_to_enroll,
-    },
   ]
 }

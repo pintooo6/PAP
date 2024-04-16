@@ -7,19 +7,19 @@ export default function App() {
 
   const handleSend = async () => {
     try {
-        method: 'POST',
-        const response = await fetch('http://10.64.130.114:5000/api/chat', {
+      const response = await fetch('http://10.64.130.114:5000/api/chat', {
+        method: 'POST', // Corrected here
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ user_input: inputText }),
       });
-
+  
       const result = await response.json();
-
+  
       const newMessage = { text: inputText, sender: 'user' };
       const botMessage = { text: result.response, sender: 'bot' };
-
+  
       setMessages([...messages, newMessage, botMessage]);
       setInputText('');
     } catch (error) {
